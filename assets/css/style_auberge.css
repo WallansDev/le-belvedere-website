@@ -1,0 +1,53 @@
+body {
+  width: 100%;
+}
+
+#conteneur {
+text-align: center;
+}
+
+#card-1, #card-2, #card-3 {
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+  font-size:62.5%;
+  margin: 2% 2% 2% 2%;
+  border:1px solid #F2F2F2;
+  padding:.5rem;
+  height:40rem;
+  width:33rem;
+  font-size:1.1rem;
+  border-radius:2rem;
+  box-shadow:3px 3px 10px #F2F2F2;
+  transition:.3s linear;
+  border: 2px solid rgb(25, 25, 25);
+}
+.card:hover{
+  cursor:pointer;
+  box-shadow:5px 5px 10px darken(#F2F2F2,10%);
+  transform:translateY(-5px);
+}
+
+.card__heading {
+  margin-top: 1%;
+}
+
+.card__picture-box{
+  width:100%;
+  height:auto;
+}
+
+.card__picture{
+  width: 500px;
+  height: 300px;
+  border-radius: 2em 2em 2em 2em;
+  object-fit:cover;
+}
+
+.card__body{
+  text-align: center;
+}
+
+.modal-img {
+  cursor: pointer;
+  width: 100%;
+}

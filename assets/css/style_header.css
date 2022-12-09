@@ -1,0 +1,59 @@
+
+/* FONTS */
+
+@font-face { 
+    font-family: Haarlem;
+    src: url('../fonts/Haarlem.ttf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* TITLE */
+
+#bandeau-main-title {
+    background-color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    border: 2px solid black;
+}
+
+#main-title {
+    color: rgb(202, 187, 107);
+    font-size: 3em;
+    font-family: 'Haarlem', Arial, sans-serif;
+}
+
+#text-title {
+    text-align: center;
+    color: rgb(202, 187, 107);
+    font-size: 1.5em;
+    font-family: 'Lato', Arial, sans-serif;
+}
+
+
+/* NAV */
+
+#bandeau-main-title a {
+    text-decoration: none;
+    color: rgb(202, 187, 107);
+    font-family: Arial, sans-serif;
+}
+
+#bandeau-main-title a:hover {
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+#logout-button {
+    float: right;
+    margin-right: 2%;
+}
+
+#logout-button input:hover {
+    cursor: pointer;
+}

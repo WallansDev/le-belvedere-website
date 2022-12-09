@@ -1,0 +1,84 @@
+@font-face { 
+    font-family: Haarlem;
+    src: url('../fonts/Haarlem.ttf');
+}
+
+* {
+    font-family: Arial, sans-serif;
+}
+
+#title {
+    font-family: 'Haarlem', Arial, sans-serif;
+    text-align: center;
+}
+
+#box-title {
+    text-align: center;
+    margin-top: 2%;
+    font-size: 1.5em;
+}
+
+.projects {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.projects__title {
+  font-family: 'Arial', sans-serif;
+  font-size: 36px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.project__item {
+  transition: .2s ease-in-out;
+}
+
+.projects__item:hover {
+  opacity: 0.7;
+}
+
+.projects__items {
+  width: calc(100% - (20px*2));
+  margin: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.projects__item {
+  width: 12%;
+  margin: 1.1%;
+}
+
+.projects__item-image {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 768px) {
+  .projects__title {
+      font-size: 24px;
+      margin-bottom: 15px;
+  }
+  .projects__item {
+      width: 18%;
+      margin: 1%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .projects__item {
+      width: 30%;
+      margin: 1.5%;
+  }
+}
+
+.nom-marque {
+  text-align: center;
+}
+
+.projects__item a img:hover {
+  width: 105%;
+}

@@ -1,0 +1,144 @@
+/*
+ --------------------------------
+    Author Name : Timothé VAQUIE
+ --------------------------------
+*/
+
+/* FONTS */
+
+@font-face { 
+    font-family: Haarlem;
+    src: url('../fonts/Haarlem.ttf');
+}
+@font-face { 
+    font-family: 'Quicksand Bold';
+    src: url('../fonts/Quicksand_Bold.otf');
+}
+@font-face { 
+    font-family: 'Quicksand Light';
+    src: url('../fonts/Quicksand_Light.otf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&display=swap');
+
+/* CORPS */
+
+* {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #e1d2b8;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#carte-1-title {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.title {
+    font-family: 'Haarlem', Arial, sans-serif;
+    font-size: 3em;
+}
+
+#title-text {
+    font-family: 'Haarlem', Arial, sans-serif;
+    font-size: 3rem;
+}
+
+#carte-1-menu-cl1 {
+    margin: 1% 0% 3% 1%;
+}
+
+.prix {
+    float: right;
+}
+
+.food-title {
+    font-family: 'Quicksand Bold', Arial, sans-serif;
+}
+
+.food-text {
+    font-family: 'Quicksand Light', Arial, sans-serif;
+    line-height: 1.5em;
+    margin-right: 1%;
+}
+
+.menu-text {
+    font-size: 1.5em;
+    font-family: 'Quicksand Light', Arial, sans-serif;
+    font-weight: bold;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.prix2 {
+    font-family: 'Quicksand Bold', Arial, sans-serif;
+}
+
+footer p{
+    text-align: center;
+    line-height: 1.5em;
+    font-family: 'Quicksand Bold', Arial, sans-serif;
+    font-size: 1.2em;
+}
+
+/* Carte */
+
+#box {
+    margin: 5% 0% 5% 0%;
+    text-align: center;
+    display: none;
+}
+
+#thumbnail { 
+    width: 500px;
+    height: 500px;
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    border: black solid;
+}
+
+/* Close Button */
+
+    .delete {
+    	position: relative;
+    	vertical-align: middle;
+    	display: inline-block;
+    }
+    
+    .delete #delete-button {
+    	content: '';
+    	position:absolute;
+    	top: 10px;
+        right: 10px;
+    	height: 70px;
+    	width: 70px;
+    }
+
+.delete #delete-button span {
+    display: block;
+    width: 70px;
+    height: 5px;
+    position: relative;
+    background: black;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.delete #delete-button span:first-of-type {
+    top: 32px;
+    transform: rotate(45deg);
+}
+
+.delete #delete-button span:last-child {
+    top: 75px;
+    margin: -50px 0 0 0px;
+    transform: rotate(-45deg);
+}

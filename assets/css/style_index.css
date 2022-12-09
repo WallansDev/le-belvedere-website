@@ -1,0 +1,49 @@
+@font-face { 
+    font-family: Haarlem;
+    src: url('../fonts/Haarlem.ttf');
+}
+
+* {
+    font-family: Arial, sans-serif;
+}
+
+.haarlem {
+    font-family: 'Haarlem', Arial, sans-serif;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    line-height: 1.5;
+}
+
+footer p {
+    color: rgb(202, 187, 107);
+    font-family: Arial, sans-serif;
+    font-size: 1.1em;
+}
+
+footer a {
+    color: rgb(202, 187, 107);
+    text-decoration: none;
+}
+
+#avis {
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+#avis p {
+    color: white;
+}
+
+#image-div {
+    background-color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+}
+
+#main-image {
+    margin: 5rem 0 2rem 0;
+    max-width: 75% 
+}
